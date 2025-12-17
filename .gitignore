@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+.env/
+bin/
+
+# Database
+*.db
+
+# Uploaded files
+data/incoming/*
+data/processed/*
+data/failed/*
+data/api_uploads/*
+
+!.gitkeep
